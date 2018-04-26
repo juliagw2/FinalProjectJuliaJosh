@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Final Project (Julia + Josh)</string>
+    <string name="title_activity_food__input">Food_Input</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="button">Entertainment</string>
+    <string name="button2">Food</string>
+    <string name="tab_text_1">Taste</string>
+    <string name="tab_text_2">Price</string>
+    <string name="tab_text_3">Dining</string>
+    <string name="radioButton">Under $10</string>
+    <string name="radioButton2">$11-$30</string>
+    <string name="radioButton3">$31-$60</string>
+    <string name="radioButton4">Above $60</string>
+    <string name="diningOption">Take-out</string>
+    <string name="diningOption2">Delivery</string>
+    <string name="diningOption3">Dine in</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
