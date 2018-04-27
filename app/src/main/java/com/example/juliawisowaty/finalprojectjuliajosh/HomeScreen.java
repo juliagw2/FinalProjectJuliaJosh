@@ -15,8 +15,8 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        b = (Button)findViewById(R.id.button);
-        a = (Button)findViewById(R.id.button2);
+        a = (Button)findViewById(R.id.button);
+        b = (Button)findViewById(R.id.button2);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
