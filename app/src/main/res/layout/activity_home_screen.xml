@@ -22,7 +22,8 @@
         android:background="@drawable/show_icon"
         android:text="@string/button"
         android:textSize="32sp"
-        android:textColor="#F00"/>
+        android:textColor="#F00"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:id="@+id/button2"
@@ -32,6 +33,7 @@
         android:layout_alignParentStart="true"
         android:background="@drawable/food_background"
         android:text="@string/button2"
-        android:textSize="32sp" />
+        android:textSize="32sp"
+        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>

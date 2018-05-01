@@ -12,29 +12,20 @@
         android:text="@string/tab_text_3"
         android:textSize="25sp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
-        android:text="Submit" />
-
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:checkedButton="@+id/diningOption2"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="55dp"
-        android:layout_alignParentLeft="true">
+        tools:layout_editor_absoluteY="55dp">
 
         <RadioButton
             android:id="@+id/diningOption2"
             android:layout_width="match_parent"
             android:layout_height="116dp"
-            android:checked="true"
             android:text="@string/diningOption2" />
 
         <RadioButton

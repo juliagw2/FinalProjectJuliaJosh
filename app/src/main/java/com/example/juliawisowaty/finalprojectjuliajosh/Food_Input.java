@@ -1,5 +1,6 @@
 package com.example.juliawisowaty.finalprojectjuliajosh;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -23,7 +24,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class Food_Input extends AppCompatActivity {
-
+    private Button submit;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -59,7 +60,14 @@ public class Food_Input extends AppCompatActivity {
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
-
+        submit = (Button)findViewById(R.id.button5);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent go = new Intent(Food_Input.this,Food_Output.class);
+                startActivity(go);
+            }
+        });
     }
 
 
