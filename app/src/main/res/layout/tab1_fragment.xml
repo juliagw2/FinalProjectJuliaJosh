@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/textTab1"
@@ -10,4 +12,103 @@
         android:text="@string/tab_text_1"
         android:textSize="25sp" />
 
-</android.support.constraint.ConstraintLayout>
+    <CheckBox
+        android:id="@+id/checkBox_Persian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_Chinese"
+        android:text="Persian"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_Korean"
+        android:text="Chinese"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Korean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_Italian"
+        android:text="Korean"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Italian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_Vietnamese"
+        android:text="Italian"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="139dp"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Vietnamese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_Japanese"
+        android:text="Vietnamese"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="171dp"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Japanese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_Mexican"
+        android:text="Japanese"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="203dp"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Mexican"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox_American"
+        android:text="Mexican"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="238dp"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_American"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:checked="false"
+        android:text="American"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="270dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:text="Submit" />
+
+</RelativeLayout>
