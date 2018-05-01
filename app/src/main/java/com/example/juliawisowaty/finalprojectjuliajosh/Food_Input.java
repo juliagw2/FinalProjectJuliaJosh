@@ -123,9 +123,19 @@ public class Food_Input extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+           Fragment fragment = null;
+           switch (position) {
+               case 0:
+                   fragment = new Tab_1();
+                   break;
+               case 1:
+                   fragment = new Tab_2();
+                   break;
+               case 2:
+                   fragment = new Tab_3();
+                   break;
+           }
+           return fragment;
         }
 
         @Override

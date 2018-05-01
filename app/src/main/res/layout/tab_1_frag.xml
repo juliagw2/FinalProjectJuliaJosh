@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/background_light"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/textTab1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/tab_text_1"
-        android:textSize="25sp" />
+        android:text="Taste"
+        android:textSize="30sp" />
 
     <CheckBox
         android:id="@+id/checkBox_Persian"
@@ -19,9 +21,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_Chinese"
         android:text="Persian"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="43dp"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"/>
 
     <CheckBox
         android:id="@+id/checkBox_Chinese"
@@ -30,9 +31,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_Korean"
         android:text="Chinese"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="75dp"
-        android:layout_alignParentLeft="true"/>
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"/>
 
     <CheckBox
         android:id="@+id/checkBox_Korean"
@@ -41,9 +41,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_Italian"
         android:text="Korean"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="107dp"
-        android:layout_alignParentLeft="true"/>
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"/>
 
     <CheckBox
         android:id="@+id/checkBox_Italian"
@@ -52,8 +51,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_Vietnamese"
         android:text="Italian"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="139dp"
+        android:textSize="20sp"
         android:layout_alignParentLeft="true"/>
 
     <CheckBox
@@ -63,8 +61,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_Japanese"
         android:text="Vietnamese"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="171dp"
+        android:textSize="20sp"
         android:layout_alignParentLeft="true"/>
 
     <CheckBox
@@ -74,8 +71,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_Mexican"
         android:text="Japanese"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="203dp"
+        android:textSize="20sp"
         android:layout_alignParentLeft="true"/>
 
     <CheckBox
@@ -85,8 +81,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox_American"
         android:text="Mexican"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="238dp"
+        android:textSize="20sp"
         android:layout_alignParentLeft="true"/>
 
     <CheckBox
@@ -96,19 +91,17 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="55dp"
-        android:checked="false"
         android:text="American"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="270dp"
+        android:textSize="20sp"
         android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp"
+        android:layout_marginBottom="100dp"
         android:text="Submit" />
 
 </RelativeLayout>

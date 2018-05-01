@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,6 +12,15 @@
         android:text="@string/tab_text_3"
         android:textSize="25sp" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Submit" />
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,9 +32,9 @@
 
         <RadioButton
             android:id="@+id/diningOption2"
-            android:checked="true"
             android:layout_width="match_parent"
             android:layout_height="116dp"
+            android:checked="true"
             android:text="@string/diningOption2" />
 
         <RadioButton
@@ -40,14 +49,7 @@
             android:layout_height="125dp"
             android:text="@string/diningOption3" />
 
-        <Button
-            android:id="@+id/button_Submit"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Submit"
-            android:visibility="visible" />
 
     </RadioGroup>
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
