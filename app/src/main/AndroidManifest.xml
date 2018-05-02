@@ -22,6 +22,9 @@
             android:label="@string/title_activity_food__input"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Food_Output"></activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCDXMEHvpHVvngfa_wP7eeOs9UlxjJDO1E"/>
     </application>
 
 </manifest>
