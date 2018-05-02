@@ -20,7 +20,8 @@
         <activity
             android:name=".Food_Input"
             android:label="@string/title_activity_food__input"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Food_Output"></activity>
     </application>
 
 </manifest>
