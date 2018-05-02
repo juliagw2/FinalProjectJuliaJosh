@@ -15,21 +15,12 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        a = (Button)findViewById(R.id.button);
         b = (Button)findViewById(R.id.button2);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(HomeScreen.this,Food_Input.class);
                 startActivity(i);
-            }
-        });
-        a.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent j = new Intent(HomeScreen.this, Entertainment_Input.class);
-                startActivity(j);
-
             }
         });
     }
